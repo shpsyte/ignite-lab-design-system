@@ -3,7 +3,7 @@ name: Deploy Storybook to Gh
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-deploy:
